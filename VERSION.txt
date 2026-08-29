@@ -1,0 +1,5 @@
+Release name: Clan Dialogue Expansion
+Module ID: ClanDialogueExpansion
+Assembly: ClanDialogueExpansion.dll
+Target game version: Bannerlord 1.4.8
+Release source: reconstructed from the verified 57 KB stable DLL and subsequently completed with the current feature set.

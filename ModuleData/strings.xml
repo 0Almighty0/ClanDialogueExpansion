@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings>
+  <string id="cde.core.response.nevermind" text="{=cde.core.response.nevermind}As you wish." />
+  <string id="cde.core.response.wait" text="{=cde.core.response.wait}Of course. I will await your next orders." />
+  <string id="cde.core.template.response" text="{=cde.core.template.response}Understood. I will use my current troop composition as my recruitment template." />
+  <string id="cde.core.template.player.response" text="{=cde.core.template.player.response}Understood. I will use your party's current troop composition as my recruitment template." />
+  <string id="cde.core.template.clear.response" text="{=cde.core.template.clear.response}Understood. I will recruit troops without a composition template." />
+  <string id="cde.core.template.other.response" text="{=cde.core.template.other.response}Understood. I will use" />
+  <string id="cde.core.template.other.response.suffix" text="{=cde.core.template.other.response.suffix}'s party as my recruitment template." />
+  <string id="cde.core.dialogue.open" text="{=cde.core.dialogue.open}I have a new assignment for you." />
+  <string id="cde.core.dialogue.what" text="{=cde.core.dialogue.what}What is it?" />
+  <string id="cde.core.dialogue.confirm" text="{=cde.core.dialogue.confirm}Are you sure?" />
+  <string id="cde.core.dialogue.rules" text="{=cde.core.dialogue.rules}What rules should I follow?" />
+  <string id="cde.core.dialogue.ack" text="{=cde.core.dialogue.ack}Understood." />
+  <string id="cde.core.dialogue.patrol.where" text="{=cde.core.dialogue.patrol.where}Which settlement should I patrol?" />
+  <string id="cde.core.dialogue.patrol.empty" text="{=cde.core.dialogue.patrol.empty}Your faction does not currently control any towns or castles that I can patrol." />
+  <string id="cde.core.dialogue.stay.where" text="{=cde.core.dialogue.stay.where}Which settlement should I stay in?" />
+  <string id="cde.core.dialogue.stay.empty" text="{=cde.core.dialogue.stay.empty}Your faction does not currently control any towns or castles where I can stay." />
+  <string id="cde.core.dialogue.template.other" text="{=cde.core.dialogue.template.other}Whose party should I use as the recruitment template?" />
+  <string id="cde.core.dialogue.template.empty" text="{=cde.core.dialogue.template.empty}There are no other clan hero parties available to use as a recruitment template." />
+  <string id="cde.core.template.view.response.none" text="{=cde.core.template.view.response.none}There is no recruitment template set for this party." />
+  <string id="cde.core.template.view.response.header" text="{=cde.core.template.view.response.header}The current recruitment template is:" />
+  <string id="cde.core.option.follow" text="{=cde.core.option.follow}Your party is to follow mine." />
+  <string id="cde.core.option.patrol" text="{=cde.core.option.patrol}I am sending you on patrol." />
+  <string id="cde.core.option.stay" text="{=cde.core.option.stay}Stay in a settlement until I give another order." />
+  <string id="cde.core.option.roam" text="{=cde.core.option.roam}I want you to roam the lands." />
+  <string id="cde.core.option.clear.hideout" text="{=cde.core.option.clear.hideout}Search our territory and clear hideouts." />
+  <string id="cde.core.option.clear.hideout.specific" text="{=cde.core.option.clear.hideout.specific}Clear a hideout near a specific settlement." />
+  <string id="cde.core.option.cancel" text="{=cde.core.option.cancel}Cancel all standing orders." />
+  <string id="cde.core.option.nevermind" text="{=cde.core.option.nevermind}Never mind." />
+  <string id="cde.core.option.rules" text="{=cde.core.option.rules}I have standing rules for your party." />
+  <string id="cde.core.option.disband" text="{=cde.core.option.disband}I want you and your entire party to merge into mine." />
+  <string id="cde.core.option.confirm" text="{=cde.core.option.confirm}Yes, I am sure." />
+  <string id="cde.core.option.army" text="{=cde.core.option.army}I want your party in my army." />
+  <string id="cde.core.option.cancel.all" text="{=cde.core.option.cancel.all}Spread the word, everyone's orders are hereby rescinded." />
+  <string id="cde.core.option.equipment" text="{=cde.core.option.equipment}Let me see your goods and equipment." />
+  <string id="cde.core.option.transfer.troops" text="{=cde.core.option.transfer.troops}Let me see your troops." />
+  <string id="cde.core.option.template.view" text="{=cde.core.option.template.view}Show me your recruitment plan." />
+  <string id="cde.core.option.template.party" text="{=cde.core.option.template.party}Use your current troops as your recruitment template." />
+  <string id="cde.core.option.template.player" text="{=cde.core.option.template.player}Use my party's current troops as your recruitment template." />
+  <string id="cde.core.option.template.edit" text="{=cde.core.option.template.edit}Edit recruitment template." />
+  <string id="cde.core.option.template.other" text="{=cde.core.option.template.other}Use another hero's party as your recruitment template." />
+  <string id="cde.core.option.template.clear" text="{=cde.core.option.template.clear}Recruit troops without a composition template." />
+  <string id="cde.core.option.done" text="{=cde.core.option.done}That is all." />
+  <string id="cde.core.option.more" text="{=cde.core.option.more}Show another group." />
+  <string id="cde.core.rule.recruit.on" text="{=cde.core.rule.recruit.on}Do not recruit new troops." />
+  <string id="cde.core.rule.recruit.off" text="{=cde.core.rule.recruit.off}You may recruit troops normally." />
+  <string id="cde.core.rule.prisoners.on" text="{=cde.core.rule.prisoners.on}Do not take common prisoners." />
+  <string id="cde.core.rule.prisoners.off" text="{=cde.core.rule.prisoners.off}You may take prisoners normally." />
+  <string id="cde.core.rule.raids.on" text="{=cde.core.rule.raids.on}Do not raid villages." />
+  <string id="cde.core.rule.raids.off" text="{=cde.core.rule.raids.off}You may raid enemy villages." />
+  <string id="cde.core.rule.sieges.on" text="{=cde.core.rule.sieges.on}Do not besiege towns or castles." />
+  <string id="cde.core.rule.sieges.off" text="{=cde.core.rule.sieges.off}You may besiege enemy settlements." />
+  <string id="cde.core.rule.armies.on" text="{=cde.core.rule.armies.on}Do not join armies." />
+  <string id="cde.core.rule.armies.off" text="{=cde.core.rule.armies.off}You may join armies." />
+  <string id="cde.core.rule.garrisons.on" text="{=cde.core.rule.garrisons.on}Do not donate troops to other clans' garrisons." />
+  <string id="cde.core.rule.garrisons.off" text="{=cde.core.rule.garrisons.off}You may donate troops to other clans' garrisons." />
+  <string id="cde.core.rule.hideouts.on" text="{=cde.core.rule.hideouts.on}Do not clear hideouts while patrolling." />
+  <string id="cde.core.rule.hideouts.off" text="{=cde.core.rule.hideouts.off}Clear hideouts discovered while patrolling." />
+  <string id="cde.core.response.follow" text="{=cde.core.response.follow}Certainly. I will follow your party from now on." />
+  <string id="cde.core.response.roam" text="{=cde.core.response.roam}Understood. I will resume my usual duties." />
+  <string id="cde.core.response.patrol" text="{=cde.core.response.patrol}Understood. I will patrol around {CDE_CORE_SETTLEMENT}." />
+  <string id="cde.core.response.stay" text="{=cde.core.response.stay}Understood. I will remain at {CDE_CORE_SETTLEMENT} until you give another order." />
+  <string id="cde.core.response.cancel" text="{=cde.core.response.cancel}Understood. I will return to my usual duties." />
+  <string id="cde.core.response.clear.hideout" text="{=cde.core.response.clear.hideout}Understood. I will clear the hideout near {CDE_CORE_SETTLEMENT}." />
+  <string id="cde.core.response.clear.hideout.none" text="{=cde.core.response.clear.hideout.none}There are no active hideouts near a town for me to clear." />
+  <string id="cde.core.response.clear.hideout.specific" text="{=cde.core.response.clear.hideout.specific}Understood. I will clear a hideout near {CDE_CORE_SETTLEMENT}." />
+  <string id="cde.core.response.clear.hideout.specific.none" text="{=cde.core.response.clear.hideout.specific.none}There are no active hideouts near {CDE_CORE_SETTLEMENT}." />
+  <string id="cde.core.dialogue.clear.hideout.where" text="{=cde.core.dialogue.clear.hideout.where}Which settlement should I search around?" />
+  <string id="cde.core.dialogue.clear.hideout.empty" text="{=cde.core.dialogue.clear.hideout.empty}Your faction does not currently control any towns or castles to search around." />
+  <string id="cde.core.screen.transfer.header" text="{=cde.core.screen.transfer.header}Manage Troops and Prisoners" />
+  <string id="cde.core.screen.template.available" text="{=cde.core.screen.template.available}Available Troop Types" />
+  <string id="cde.core.screen.template.right" text="{=cde.core.screen.template.right}Recruitment Template" />
+  <string id="cde.core.screen.template.header" text="{=cde.core.screen.template.header}Recruitment Template" />
+  <string id="cde.core.error.equipment" text="{=cde.core.error.equipment}Party equipment screen could not be opened:" />
+  <string id="cde.core.error.template" text="{=cde.core.error.template}Recruitment template screen could not be opened:" />
+</strings>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <RelationRaidingPositiveMultMin>0.3</RelationRaidingPositiveMultMin>
+  <RelationRaidingNegativeMultMax>1.5</RelationRaidingNegativeMultMax>
+  <RelationSiegingPositiveMultMin>0.5</RelationSiegingPositiveMultMin>
+  <RelationSiegingNegativeMultMax>1.5</RelationSiegingNegativeMultMax>
+  <SameCultureRaidingMult>0.5</SameCultureRaidingMult>
+  <SameCultureSiegingMult>1.5</SameCultureSiegingMult>
+  <PartyMaintenanceScoreMultiplier>1</PartyMaintenanceScoreMultiplier>
+  <OwnClanVillagesScoreMultiplier>1</OwnClanVillagesScoreMultiplier>
+  <FriendlyVillagesScoreMultiplier>1</FriendlyVillagesScoreMultiplier>
+  <HostileSettlementsScoreMultiplier>1</HostileSettlementsScoreMultiplier>
+  <AttackInitiativeMultiplier>1</AttackInitiativeMultiplier>
+  <AvoidInitiativeMultiplier>1</AvoidInitiativeMultiplier>
+  <CommandScoreMinimum>1000</CommandScoreMinimum>
+  <CommandScoreMultiplier>1</CommandScoreMultiplier>
+  <ShortTermReactionRangeMultiplier>1</ShortTermReactionRangeMultiplier>
+  <BorderTargetDistanceMultiplier>1</BorderTargetDistanceMultiplier>
+  <EnableBorderOnlySieges>true</EnableBorderOnlySieges>
+  <OrderEscortEngageHoldKey>56</OrderEscortEngageHoldKey>
+  <MinimumDaysFoodToLastWhileBuyingFood>15</MinimumDaysFoodToLastWhileBuyingFood>
+  <ResupplyTriggerDays>2</ResupplyTriggerDays>
+  <ResupplyTargetDays>7</ResupplyTargetDays>
+  <SpareMountsToKeep>5</SpareMountsToKeep>
+  <ClanPartyGoldLimitToTakeFromTreasury>200</ClanPartyGoldLimitToTakeFromTreasury>
+</Config>

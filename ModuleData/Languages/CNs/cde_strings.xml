@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/BUTR/Bannerlord.XmlSchemas/master/ModuleLanguage.xsd">
+  <tags><tag language="简体中文" /></tags>
+  <strings>
+    <string id="cde.core.response.nevermind" text="没事。" />
+    <string id="cde.core.response.wait" text="当然。我会等待你的下一步命令。" />
+    <string id="cde.core.template.response" text="明白。我会按照当前部队构成作为征募模板。" />
+    <string id="cde.core.template.player.response" text="好的，我立即使用新的招募计划。" />
+    <string id="cde.core.template.clear.response" text="明白。已清除所有招募计划。" />
+    <string id="cde.core.template.other.response" text="明白。我会使用" />
+    <string id="cde.core.template.other.response.suffix" text="的部队作为征募模板。" />
+    <string id="cde.core.dialogue.open" text="我有个新任务要交给你。" />
+    <string id="cde.core.dialogue.what" text="是什么？" />
+    <string id="cde.core.dialogue.confirm" text="你确定吗？" />
+    <string id="cde.core.dialogue.rules" text="你希望我遵守哪些规则？" />
+    <string id="cde.core.dialogue.ack" text="明白。" />
+    <string id="cde.core.dialogue.patrol.where" text="我要巡逻什么地方？" />
+    <string id="cde.core.dialogue.patrol.empty" text="你的势力目前没有我可以巡逻的城镇或城堡。" />
+    <string id="cde.core.dialogue.stay.where" text="我应该驻守在哪个定居点？" />
+    <string id="cde.core.dialogue.stay.empty" text="你的势力目前没有我可以驻守的城镇或城堡。" />
+    <string id="cde.core.dialogue.template.other" text="你希望我使用哪位英雄的部队作为征募模板？" />
+    <string id="cde.core.dialogue.template.empty" text="没有其他氏族英雄部队可以作为征募模板。" />
+    <string id="cde.core.template.view.response.none" text="这支部队目前没有设置招募模板。" />
+    <string id="cde.core.template.view.response.header" text="当前招募模板为：" />
+    <string id="cde.core.option.follow" text="率领你的部队跟随我行动。" />
+    <string id="cde.core.option.patrol" text="我要派你去巡逻。" />
+    <string id="cde.core.option.stay" text="留在定居点，直到我下达新的命令。" />
+    <string id="cde.core.option.roam" text="你在这片土地上随意行动吧。" />
+    <string id="cde.core.option.clear.hideout" text="在家族领地内寻找并清理藏身处。" />
+    <string id="cde.core.option.clear.hideout.specific" text="清理指定城镇或城堡附近的藏身处。" />
+    <string id="cde.core.option.cancel" text="你所有的任务即刻终止。" />
+    <string id="cde.core.option.nevermind" text="没事。" />
+    <string id="cde.core.option.rules" text="我对你的部队有一些长期规则。" />
+    <string id="cde.core.option.disband" text="带着你的士兵并入我的部队。" />
+    <string id="cde.core.option.confirm" text="是的，我确定。" />
+    <string id="cde.core.option.army" text="率领你的部队加入我的军团。" />
+    <string id="cde.core.option.cancel.all" text="传令，所有人的任务都即刻终止。" />
+    <string id="cde.core.option.equipment" text="让我看看你的装备和货物。" />
+    <string id="cde.core.option.transfer.troops" text="让我看看你的部队。" />
+    <string id="cde.core.option.template.view" text="让我看看你的招募计划。" />
+    <string id="cde.core.option.template.party" text="使用你当前的部队作为征募模板。" />
+    <string id="cde.core.option.template.player" text="使用我的部队作为你的征募模板。" />
+    <string id="cde.core.option.template.edit" text="编辑征募模板。" />
+    <string id="cde.core.option.template.other" text="使用其他英雄的部队作为你的征募模板。" />
+    <string id="cde.core.option.template.clear" text="不使用部队构成模板进行征募。" />
+    <string id="cde.core.option.done" text="就这样吧，去执行任务吧。" />
+    <string id="cde.core.option.more" text="更多……" />
+    <string id="cde.core.rule.recruit.on" text="不要征募新兵。" />
+    <string id="cde.core.rule.recruit.off" text="你可以正常征募士兵。" />
+    <string id="cde.core.rule.prisoners.on" text="不要招募普通俘虏。" />
+    <string id="cde.core.rule.prisoners.off" text="你可以正常招募俘虏。" />
+    <string id="cde.core.rule.raids.on" text="不要劫掠村庄。" />
+    <string id="cde.core.rule.raids.off" text="你可以劫掠敌方村庄。" />
+    <string id="cde.core.rule.sieges.on" text="不要围攻城镇或城堡。" />
+    <string id="cde.core.rule.sieges.off" text="你可以围攻敌方定居点。" />
+    <string id="cde.core.rule.armies.on" text="不要加入军团，除非是我统率的。" />
+    <string id="cde.core.rule.armies.off" text="我允许你参与他人的军团行动。" />
+    <string id="cde.core.rule.garrisons.on" text="不要把我们的士兵留在友方家族的驻军里。" />
+    <string id="cde.core.rule.garrisons.off" text="事实上，你可以随意派赠士兵给友方家族的驻军。" />
+    <string id="cde.core.rule.hideouts.on" text="巡逻时不要清理藏身处。" />
+    <string id="cde.core.rule.hideouts.off" text="清理巡逻途中发现的藏身处。" />
+    <string id="cde.core.response.follow" text="明白。我会从现在起跟随你的部队。" />
+    <string id="cde.core.response.roam" text="明白。我会恢复正常活动。" />
+    <string id="cde.core.response.patrol" text="明白。我会在 {CDE_CORE_SETTLEMENT} 附近巡逻。" />
+    <string id="cde.core.response.stay" text="明白。在你下达新命令前，我会留在 {CDE_CORE_SETTLEMENT}。" />
+    <string id="cde.core.response.cancel" text="明白。我会恢复正常活动。" />
+    <string id="cde.core.response.clear.hideout" text="明白。我会清理 {CDE_CORE_SETTLEMENT} 附近的藏身处。" />
+    <string id="cde.core.response.clear.hideout.none" text="附近没有可清理的城镇藏身处。" />
+    <string id="cde.core.response.clear.hideout.specific" text="明白。我会清理 {CDE_CORE_SETTLEMENT} 附近的藏身处。" />
+    <string id="cde.core.response.clear.hideout.specific.none" text="{CDE_CORE_SETTLEMENT} 附近没有可清理的藏身处。" />
+    <string id="cde.core.dialogue.clear.hideout.where" text="我要搜索哪个定居点附近？" />
+    <string id="cde.core.dialogue.clear.hideout.empty" text="你的势力目前没有可以搜索的城镇或城堡。" />
+    <string id="cde.core.screen.transfer.header" text="管理部队和俘虏" />
+    <string id="cde.core.screen.template.available" text="可选的兵种树" />
+    <string id="cde.core.screen.template.right" text="模板" />
+    <string id="cde.core.screen.template.header" text="模板" />
+    <string id="cde.core.error.equipment" text="无法打开部队装备界面：" />
+    <string id="cde.core.error.template" text="无法打开征募模板界面：" />
+  </strings>
+</base>
