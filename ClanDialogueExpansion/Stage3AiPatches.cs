@@ -403,7 +403,9 @@ internal static class Stage3ArmyMembershipPatch
 		if (order != null && army != null && army.LeaderParty != mobileParty)
 		{
 			bool isPlayerArmy = army.LeaderParty == MobileParty.MainParty;
-			if ((order.Type == CoreOrderType.RulesOnly && isPlayerArmy) || (!order.AllowJoiningArmies && !isPlayerArmy))
+			// Opening the long-term rules menu creates a rules-only order. That
+			// order must preserve membership in the player's current army.
+			if (!order.AllowJoiningArmies && !isPlayerArmy)
 			{
 				ReleaseFromArmy(mobileParty);
 				return false;

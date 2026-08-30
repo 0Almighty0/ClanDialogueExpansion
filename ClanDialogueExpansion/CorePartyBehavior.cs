@@ -1329,7 +1329,9 @@ public sealed class CorePartyBehavior : CampaignBehaviorBase
 		if (party.Army != null && party.Army.LeaderParty != party)
 		{
 			bool isPlayerArmy = party.Army.LeaderParty == MobileParty.MainParty;
-			if ((order.Type == CoreOrderType.RulesOnly && isPlayerArmy) || (!order.AllowJoiningArmies && !isPlayerArmy))
+			// A rules-only order only changes long-term restrictions. It must not
+			// remove a party that has already joined the player's army.
+			if (!order.AllowJoiningArmies && !isPlayerArmy)
 			{
 				party.Army = null;
 				party.AttachedTo = null;
